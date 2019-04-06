@@ -1,0 +1,29 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">AthensWeatherApplication</string>
+    <string name="error_message">Please check your internet connection!!</string>
+    <!--Used in overflow menu to refresh weather data-->
+    <string name="action_refresh">Refresh</string>
+    <!-- For labelling today's forecast [CHAR LIMIT=15] -->
+    <string name="today">Today</string>
+
+    <!-- For labelling tomorrow's forecast [CHAR LIMIT=15] -->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Date format [CHAR LIMIT=NONE] -->
+    <string name="format_full_friendly_date">
+        <xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g>
+    </string>
+
+    <!-- Temperature format in Celsius [CHAR LIMIT=5] -->
+    <string name="format_temperature_celsius">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0C
+    </string>
+
+    <!-- Temperature format in Fahrenheit [CHAR LIMIT=5] -->
+    <string name="format_temperature_fahrenheit">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0F
+    </string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+
+</resources>
